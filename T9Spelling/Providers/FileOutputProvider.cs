@@ -14,7 +14,7 @@ namespace T9Spelling
 
         public void Save(IEnumerable<string> result)
         {
-			File.WriteAllLines(_path, result);
-		}
+            File.WriteAllLines(_path, result);
+        }
     }
 }
